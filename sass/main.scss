@@ -1,16 +1,37 @@
 //
+$bluebackground-height: 90%;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 .blue-background {
-    position: fixed;
-    right: 0px;
-    height: 300px;
-    width: 40%;
-    top: 30%;
+    position: absolute;
+    left: 30%;
+    height: $bluebackground-height;
+    width: 100%;
+    top: 20%;
     z-index: -1;
     border-radius: 0px 0px 0px 10rem;
 }
 
 .hero-image {
     z-index: 2;
+}
+
+.hero-container {
+    position: relative;
+}
+
+
+#tab-blue-background {
+    position: absolute;
+    right: 40%;
+    height: $bluebackground-height;
+    width: 100%;
+    top: 30%;
+    z-index: -1;
+    border-radius: 0px 0px 10rem 0rem;
+}
+
+.tab-hero-container {
+    position: relative;
+  
 }
