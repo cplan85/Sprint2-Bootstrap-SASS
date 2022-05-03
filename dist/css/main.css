@@ -11988,4 +11988,26 @@ fieldset:disabled .btn {
 .tab-hero-container {
   position: relative;
 }
+
+.card-img-top {
+  width: 100px;
+}
+
+.card-top-border {
+  width: 100%;
+  left: 0;
+  background-image: url(~/assets/images/bg-dots.svg);
+  position: absolute;
+  height: 10px;
+  background-repeat: repeat-x;
+  bottom: 25%;
+}
+
+.dot-img {
+  height: 50px;
+}
+
+.card {
+  border-radius: 0 0 1rem 1.5rem;
+}
 /*# sourceMappingURL=main.css.map */

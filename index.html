@@ -47,7 +47,7 @@
         <div class="bg-primary blue-background"></div>
         </div>
       </section>
-      <section>
+      <section >
       <div class="d-flex flex-column align-items-center justify-content-center">
         <div class="col-12 col-lg-6 align-items-center d-flex flex-column justify-content-center">
         <h1>Features</h1>
@@ -68,9 +68,9 @@
     
       </div>
 
-      <div class="tab-content mt-5" id="myTabContent">
-        <div class="row tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <div class="d-flex">
+      <div class="tab-content mt-5 mb-5" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
             <div class="col-12 col-lg-6 tab-hero-container">
               <div class="bg-primary" id="tab-blue-background"></div>
               <img class="hero-image img-fluid" src="./assets/images/illustration-features-tab-1.svg" alt="Responsive hero image">
@@ -83,7 +83,7 @@
           </div>
         </div>
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <div class="d-flex">
+          <div class="row">
             <div class="col-12 col-lg-6 tab-hero-container">
               <div class="bg-primary" id="tab-blue-background"></div>
               <img class="hero-image img-fluid" src="./assets/images/illustration-features-tab-2.svg" alt="Responsive hero image">
@@ -95,47 +95,68 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane fade d-flex" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
          
-            <div class="col-12 col-lg-6 tab-hero-container">
-              <div class="bg-primary" id="tab-blue-background"></div>
-              <img class="hero-image img-fluid" src="./assets/images/illustration-features-tab-3.svg" alt="Responsive hero image">
+            <div class="row">
+              <div class="col-12 col-lg-6 tab-hero-container">
+                <div class="bg-primary" id="tab-blue-background"></div>
+                <img class="hero-image img-fluid" src="./assets/images/illustration-features-tab-3.svg" alt="Responsive hero image">
+              </div>
+              <div class="col-12 col-lg-6">
+                <h1>Share your bookmarks</h1>
+                <h5 class="text-black-50 mt-4 mb-5">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button</h5>
+                <button class="btn btn-primary btn-lg" type="submit">More Info</button>
+              </div>
             </div>
-            <div class="col-12 col-lg-6">
-              <h1>Share your bookmarks</h1>
-              <h5 class="text-black-50 mt-4 mb-5">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button</h5>
-              <button class="btn btn-primary btn-lg" type="submit">More Info</button>
-            </div>
-    
         </div>
       </div>
     </section>
-    <section class="container">
+    <section class="container align-items-center d-flex flex-column pt-5 pb-5">
 
       <h1>Download the extension</h1>
 <h5>We´ve got more browsers in the pipeline. Please do let us know if you´ve got a favourite you´d like us to prioritize.</h5>
 
-<div class="row">
-  <div class="col-12 col-lg-4 p-4">
-    <div class="card p-4 align-items-center shadow-lg" >
+<div class="row h-100">
+  <div class="col-12 col-lg-4 p-4 position-relative">
+    <div class="card p-4 h-100 align-items-center shadow border-0" >
       <img src="./assets/images/logo-chrome.svg" class="card-img-top" alt="card-image-1">
-      <div class="card-body">
+      <div class="card-body text-center">
         <h5 class="card-title">Add to Chrome</h5>
-        <p class="card-text">Minimum version 62</p>
-        <a href="#" class="btn btn-primary">Add & Intall Extension</a>
+        <p class="card-text p-2 pb-4">Minimum version 62</p>
+        <div class="card-top-border" style="background-image: url(./assets/images/bg-dots.svg);">
+        </div>
       </div>
+      <a href="#" class="btn btn-primary">Add & Install Extension</a>
     </div>
+
   </div>
-  
-  <div class="col-12 col-lg-4 p-4">
-    <div class="card p-4 align-items-center shadow-lg" >
+
+  <div class="col-12 col-lg-4 p-4 position-relative mt-3">
+    <div class="card p-4 h-100 align-items-center shadow border-0 mt-3" >
       <img src="./assets/images/logo-firefox.svg" class="card-img-top" alt="card-image-1">
-      <div class="card-body">
+      <div class="card-body text-center">
         <h5 class="card-title">Add to Firefox</h5>
-        <p class="card-text">Minimum version 62</p>
-        <a href="#" class="btn btn-primary">Add & Intall Extension</a>
+        <p class="card-text p-2 pb-4">Minimum version 62</p>
+        <div class="card-top-border" style="background-image: url(./assets/images/bg-dots.svg);">
+        </div>
       </div>
+      <a href="#" class="btn btn-primary">Add & Install Extension</a>
     </div>
+
+  </div>
+
+  <div class="col-12 col-lg-4 p-4 position-relative mt-3">
+    <div class="card p-4 h-100 align-items-center shadow border-0 mt-5" >
+      <img src="./assets/images/logo-opera.svg" class="card-img-top" alt="card-image-1">
+      <div class="card-body text-center">
+        <h5 class="card-title">Add to Firefox</h5>
+        <p class="card-text p-2 pb-4">Minimum version 62</p>
+        <div class="card-top-border" style="background-image: url(./assets/images/bg-dots.svg);">
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary">Add & Install Extension</a>
+    </div>
+
   </div>
 </div>
 
