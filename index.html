@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page by Carlos Planchart</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/main.css">
     <!-- <link rel="stylesheet" href="./sass/reduced.css"> -->
 </head>
 <body>
-    <header>
+    <header class="container">
+      <div class="row mt-5 mb-5">
+        <div class="col-12 col-lg-6">
         <div class="menu-btn">
-            <img src="./assets/images/logo-bookmark.svg" alt="">
+            <img class="img-fluid" src="./assets/images/logo-bookmark.svg" alt="Responsive hero image">
         </div>
-        <ul class="nav nav-pills">
+      </div>
+      <div class="col-12 col-lg-5">
+        <ul class="nav nav-pills justify-content-end">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">FEATURES</a>
             </li>
@@ -21,15 +25,50 @@
               <a class="nav-link" href="#">PRICING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">CONTACT</a>
+              <a class="nav-link" href="#">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">LOGIN</a>
+              <a class="nav-link active bg-danger" href="#" tabindex="-1" aria-disabled="true">LOGIN</a>
             </li>
           </ul>
+          </div>
+        </div>
     </header>
    <main class="container">
-       <h1>Hello World</h1>
+     <section class="row">
+       <div class="col-12 col-lg-6">
+       <h1>A Simple Bookmark Manager</h1>
+       <h5 class="text-black-50 mt-4 mb-5">A clearn and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</h5>
+       <button type="button" class="btn btn-primary btn-lg me-2">Get it on Chrome</button>
+       <button type="button" class="btn btn-light btn-lg shadow">Get it on Chrome</button>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img class="hero-image" src="./assets/images/illustration-hero.svg" alt="">
+        <div class="bg-primary blue-background"></div>
+        
+        </div>
+      </section>
+      <section class="d-flex flex-column align-items-center justify-content-center">
+        <div class="col-12 col-lg-6 align-items-center d-flex flex-column justify-content-center">
+        <h1>Features</h1>
+        <h5 class="text-black-50 mt-4 mb-5">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</h5>
+      </div>
+
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Simple Bookmarking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Speedy Searching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Easy Sharing</a>
+          </li>
+        
+        </ul>
+      </section>
+
    </main>
 </body>
 </html>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
