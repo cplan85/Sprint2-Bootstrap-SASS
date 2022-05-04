@@ -1,6 +1,8 @@
 //
 $bluebackground-height: 90%;
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+$primary:       #5265E1;
+$secondary:      #FA5959;
+@import "./_tabs";
 
 .blue-background {
     position: absolute;
@@ -19,6 +21,7 @@ $bluebackground-height: 90%;
 .hero-container {
     position: relative;
 }
+
 
 
 #tab-blue-background {
@@ -57,3 +60,14 @@ $bluebackground-height: 90%;
 .card {
     border-radius: 0 0 1rem 1.5rem;
 }
+
+.footer-container {
+    color:white;
+    width:500%;
+    margin-left: -75px; /* extend 75px to the left side */
+margin-right: -75px;
+}
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

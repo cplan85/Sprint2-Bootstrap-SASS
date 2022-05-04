@@ -17,20 +17,24 @@
         </div>
       </div>
       <div class="col-12 col-lg-5">
-        <ul class="nav nav-pills justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">FEATURES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PRICING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active bg-danger" href="#" tabindex="-1" aria-disabled="true">LOGIN</a>
-            </li>
-          </ul>
+        <nav class="nav-bar navbar-light">
+          <div class="container-fluid">
+            <ul class="nav nav-pills nav-fill justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRICING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active bg-secondary" href="#" tabindex="-1" aria-disabled="true">LOGIN</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
           </div>
         </div>
     </header>
@@ -48,24 +52,26 @@
         </div>
       </section>
       <section >
-      <div class="d-flex flex-column align-items-center justify-content-center">
-        <div class="col-12 col-lg-6 align-items-center d-flex flex-column justify-content-center">
-        <h1>Features</h1>
-        <h5 class="text-black-50 mt-4 mb-5">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</h5>
-      </div>
-
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Speedy Searching</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</button>
-        </li>
-      </ul>
-    
+      <div class="row">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <div class="col-12 col-lg-6 align-items-center d-flex flex-column justify-content-center">
+          <h1>Features</h1>
+          <h5 class="text-black-50 mt-4 mb-5">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</h5>
+        </div>
+        <div class="col-12 col-lg-7">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"  role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"  role="tab" aria-controls="profile" aria-selected="false">Speedy Searching</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"  role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</a>
+            </li>
+          </ul>
+        </div>
+        </div>
       </div>
 
       <div class="tab-content mt-5 mb-5" id="myTabContent">
@@ -114,7 +120,7 @@
     <section class="container align-items-center d-flex flex-column pt-5 pb-5">
 
       <h1>Download the extension</h1>
-<h5>We´ve got more browsers in the pipeline. Please do let us know if you´ve got a favourite you´d like us to prioritize.</h5>
+<h5 class="text-black-50 mt-4 mb-5">We´ve got more browsers in the pipeline. Please do let us know if you´ve got a favourite you´d like us to prioritize.</h5>
 
 <div class="row h-100">
   <div class="col-12 col-lg-4 p-4 position-relative">
@@ -162,8 +168,11 @@
     </section>
 
     <section class="container align-items-center d-flex flex-column">
-
-      <div class="accordion accordion-flush col-12 col-lg-6" id="accordionFlushExample">
+      <div class="col-12 col-lg-7">
+        <h1>Frequently Asked Questions</h1>
+        <h5 class="text-black-50 mt-4 mb-5">Here are some FAQs. If you have any other questions you´d like answered please feel free to email us.</h5>
+      </div>
+      <div class="accordion accordion-flush col-12 col-lg-7" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -177,7 +186,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Accordion Item #2
+              How can I request a new browswer?
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -187,7 +196,18 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
+              Is there a mobile app?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What about other Chromium browsers?
             </button>
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -195,12 +215,56 @@
           </div>
         </div>
       </div> 
-    
+      <button class="btn btn-primary btn-lg" type="submit">More Info</button>
+    </section>
+   
+   </main>
+   <footer class="footer-container d-flex flex-column align-items-center justify-content-center bg-primary" style=" overflow:hidden; width:100%;">
+    <h6 class="p-3">35,000 ALREADY JOINED</h6>
+    <h5 class="p-3">Stay up-to-date with what we´re doing</h5>
 
+    <div class="row g-3 align-items-center p-4">
+      <div class="col-auto">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address" aria-describedby="emailHelp">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-secondary">Contact Us</button>
+      </div>
+    </div>
+
+    <section class="container bg-dark">
+      <div class="row mt-5 mb-5">
+        <div class="col-12 col-lg-3">
+          <img class="img-fluid" src="./assets/images/logo-bookmark.svg" alt="Responsive hero image">
+        </div>
+        <div class="col-12 col-lg-4">
+          
+          <div class="container-fluid">
+            <ul class="nav nav-pills nav-fill justify-content-start">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRICING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 justify-content-end">
+          <img class="img-fluid" src="./assets/images/icon-facebook.svg" alt="Responsive hero image">
+          <img class="img-fluid" src="./assets/images/icon-twitter.svg" alt="Responsive hero image">
+        </div>
+      </div>
+   
     </section>
 
-
-   </main>
+    
+  </footer>
+  
 </body>
 </html>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

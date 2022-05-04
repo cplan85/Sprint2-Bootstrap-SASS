@@ -1,0 +1,26 @@
+
+#myTab li {
+    width: 33%;
+    text-align: center;
+}
+
+#myTab li a.active {
+    border-bottom: 5px solid;
+    border-color: $secondary;
+    font-weight: bold;
+     }
+
+#myTab li a {
+    padding: 1.5rem 0;
+    border: none;
+ }
+
+ 
+
+ #myTab li a:hover {
+    color: $secondary;
+    cursor: pointer;
+ }
+
+.my-tab .tab-pane{border:solid 1px blue;}
+
