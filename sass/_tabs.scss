@@ -13,6 +13,10 @@
     border-bottom: 1px solid #dee2e6;
     
 }
+
+#myTab li a:active {
+    color: $secondary;
+}
 @media (min-width: 992px) {
 
     #myTab li {
@@ -55,6 +59,27 @@
  }
 
 .my-tab .tab-pane{border:solid 1px blue;}
+
+.btn-primary:active{
+
+    background-color: white !important;
+    color: $primary !important;
+}
+
+.btn-secondary:active{
+
+    background-color: white !important;
+    color: $secondary !important;
+}
+
+.btn-light:active {
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+    border-color: black !important;
+    border-style: solid !important;
+    border-width: 3px !important;
+
+}
 
 
 

@@ -1,15 +1,27 @@
 //
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 $bluebackground-height: 90%;
 $primary:       #5265E1;
 $secondary:      #FA5959;
 $enable-negative-margins: true;
+
+$nav-link-color:   black;
+$nav-link-hover-color: $secondary;
+
 @import "./_tabs";
+@import "./_accordian";
+
 
 .blue-background {
     position: absolute;
     left: 30%;
     height: $bluebackground-height;
-    width: 100%;
+    width: 150%;
     top: 20%;
     z-index: -1;
     border-radius: 0px 0px 0px 10rem;
@@ -29,7 +41,7 @@ $enable-negative-margins: true;
     position: absolute;
     right: 40%;
     height: $bluebackground-height;
-    width: 100%;
+    width: 150%;
     top: 30%;
     z-index: -1;
     border-radius: 0px 0px 10rem 0rem;
@@ -62,23 +74,52 @@ $enable-negative-margins: true;
 
 .footer-container {
     color:white;
-    margin-left: -75px; /* extend 75px to the left side */
-margin-right: -150px;
+    margin-left: 0px; /* extend 75px to the left side */
+margin-right: 0px;
 }
 
 
 
 .footer-nav {
     width: 100vw;
-    margin-left: -4rem;
+    margin-left: 0rem;
    
+}
+
+.footer-nav li a:active, .footer-nav li a:hover  {
+    color: $secondary !important;
 }
 
 
 
  @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+
  .card {
     border-radius: 0 0 1rem 1.5rem;
 
 }
+
+//.card:nth-child(1n) {
+//    background: lightgreen;
+// }
+
+.invalid-feedback {
+    background-color: $secondary;
+    color: white;
+    border-radius: 0 0 .5rem .5rem;
+    padding: .4rem;
+    margin-top: 0px;
+    
+}
+
+.footer-socials path:active, .footer-socials path:hover {
+    fill: $secondary;
+}
+
+.footer-socials:hover {
+    cursor: pointer;
+}
+
+
+
