@@ -4,7 +4,7 @@
   "description": "IT Academy - Sprint 2 - Creation of a landing page with Bootstrap and customization of Bootstrap elements with SASS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "purgecss --css dist/css/main.css --content index.html -o sass/reduced.css"
   },
   "repository": {
     "type": "git",

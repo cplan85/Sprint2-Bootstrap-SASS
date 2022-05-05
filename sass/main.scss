@@ -1,4 +1,4 @@
-//
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -100,9 +100,13 @@ margin-right: 0px;
 
 }
 
-//.card:nth-child(1n) {
-//    background: lightgreen;
-// }
+.cards-main .col-12:nth-child(2) .card {
+    margin-top: 2rem;
+ }
+
+.cards-main .col-12:nth-child(3) .card {
+    margin-top: 4rem;
+ }
 
 .invalid-feedback {
     background-color: $secondary;
@@ -119,6 +123,10 @@ margin-right: 0px;
 
 .footer-socials:hover {
     cursor: pointer;
+}
+
+.social-icons {
+    margin-top: .5rem;
 }
 
 

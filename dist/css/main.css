@@ -12833,6 +12833,14 @@ fieldset:disabled .btn {
   border-radius: 0 0 1rem 1.5rem;
 }
 
+.cards-main .col-12:nth-child(2) .card {
+  margin-top: 2rem;
+}
+
+.cards-main .col-12:nth-child(3) .card {
+  margin-top: 4rem;
+}
+
 .invalid-feedback {
   background-color: #FA5959;
   color: white;
@@ -12847,5 +12855,9 @@ fieldset:disabled .btn {
 
 .footer-socials:hover {
   cursor: pointer;
+}
+
+.social-icons {
+  margin-top: .5rem;
 }
 /*# sourceMappingURL=main.css.map */
