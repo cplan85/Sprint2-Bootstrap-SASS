@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page by Carlos Planchart</title>
-    <!-- <link rel="stylesheet" href="./dist/css/main.css"> -->
-     <link rel="stylesheet" href="./sass/reduced.css"> 
+     <link rel="stylesheet" href="./dist/css/main.css">
+     <!-- <link rel="stylesheet" href="./sass/reduced.css">  -->
 </head>
 <body>
     <header class="container">
       <div class="row mt-5 mb-5">
         <div class="col-10 col-lg-6">
-        <div class="menu-btn">
+        <div class="menu-logo">
             <img class="img-fluid" src="./assets/images/logo-bookmark.svg" alt="Responsive hero image">
         </div>
       </div>
@@ -35,9 +35,34 @@
               </ul>
           </div>
         </nav>
-        <img class="img-fluid d-lg-none" src="./assets/images/icon-hamburger.svg" alt="Responsive hamburger image">
+        <div class="menu-btn"><img class="img-fluid d-lg-none menu-btn_burger" src="./assets/images/icon-hamburger.svg" alt="Responsive hamburger image"></div>
           </div>
         </div>
+        <div class="nav-mobile">
+          
+          <ul class="menu-nav">
+              <li class="menu-nav_item">
+                  <a href="index.html" class="menu-nav_link">
+                    Features
+                  </a>
+              </li>
+              <li class="menu-nav_item">
+                  <a href="#" class="menu-nav_link">
+                      Pricing
+                  </a>
+              </li>
+              <li class="menu-nav_item">
+                  <a href="#" class="menu-nav_link">
+                      Contact
+                  </a>
+              </li>
+              <li class="menu-nav_item active">
+                  <a href="#" class="menu-nav_link">
+                      Login 
+                  </a>
+              </li>
+          </ul>
+      </div>
     </header>
    <main class="container">
      <section class="row">
@@ -277,3 +302,4 @@
 </body>
 </html>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./dist/js/main.js"></script>
