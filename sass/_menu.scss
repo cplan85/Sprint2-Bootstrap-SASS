@@ -14,8 +14,10 @@
          position:absolute;
          z-index:2;
          right: 9rem;
-         top: 3rem;
+         width: 28px;
+         top: 3.5rem;
          height: 3px;
+         background: $primary;
         
         @include transition-ease;
 
@@ -33,7 +35,7 @@
             content: "";
             position: absolute;
             top: 8px;
-            width: 20px;
+            width: 28px;
             height: 3px;
             background: $primary;
             @include transition-ease;
@@ -46,12 +48,14 @@
 
             &::before {
                 transform: rotate(45deg) translate(5px, 8px);
+                background-color: white;
           
             }
 
             &::after {
                 width:28px;
                 transform: rotate(-45deg) translate(3px, -7px);
+                background-color: white;
                 
             }
         }
@@ -73,13 +77,13 @@
     }
   
     .menu-nav {
+      padding-top: 3rem;
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      justify-content: center;
       height: 100vh;
       overflow: hidden;
-      background: rgb(153, 229, 255);
+      background: #2f354f;
       list-style-type: none;
       padding-right: 1rem;
       transform: translateY(-100%);
@@ -104,6 +108,8 @@
   
       &_link {
         display: inline-block;
+        color:white;
+        text-decoration: none;
         font-size: 2rem;
         text-transform: uppercase;
         padding: 2rem 0;
@@ -115,9 +121,13 @@
         }
       }
     }
+
+    .menu-nav > ul {
+      list-style-type: none;
+    }
   }
   
-  @for $i from 1 through 4 {
+  @for $i from 1 through 6 {
     .menu-nav_item:nth-child(#{$i}) {
       transition-delay: ($i * 0.1s) + 0.15s;
     }
